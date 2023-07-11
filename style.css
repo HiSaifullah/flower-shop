@@ -2,6 +2,24 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+/* navbar start */
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 750px;
+    margin-right: 80px;
+}
+nav li{
+    list-style: none;
+    align-items: center;
+    color: #cf6d12;
+    font-size: large;
+}
+li span{
+    color: black;
+}
+/* sections one start */
 .section-one{
     display: flex;
     background-color: #E554731A;
@@ -34,6 +52,7 @@ body{
         margin-left: 240px;
 
 }
+/* new sections start */
 .featured{
     color: #272727;
     text-align: center;
@@ -47,8 +66,7 @@ body{
     font-size: 18px;
     margin-left: 250px;
     margin-right: 250px;
-
-
+/* third section start */
 }
 .flower-item{
     display: flex;
@@ -96,7 +114,7 @@ body{
     text-align: center;
     padding-top: 30px;
 }
-/* new sections start */
+/* group deliver sections start */
 .group-delivar{
     width: 1100px;
     height: 200px;
@@ -121,6 +139,7 @@ body{
     padding: 20px;
 
 }
+/* hot sell sections start */
 .hot-sell{
         display: flex;
         border-radius: 8px;
@@ -164,6 +183,7 @@ body{
 .off{
     color: #E55473;
 }
+/* insta sections start */
 .insta{
     color: #272727;
     text-align: center;
@@ -183,6 +203,7 @@ body{
     line-height: 30px;
     margin-left: 350px;
 }
+
 .four-image-set{
     display: flex;
 }
@@ -190,6 +211,7 @@ body{
     width: 330px;
     height: 370px;
 }
+/* deals sections start */
 .deals-section{
     background-image: url('Flower\ Asset/Rectangle 9.png');
     width: 1320px;
@@ -233,6 +255,7 @@ body{
     background: #E55473;
     border: none;
 }
+/* footers start */
 .footer-div{
     text-align: center;
     background-color: #111010;
@@ -262,3 +285,4 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+/* css complete */
