@@ -170,6 +170,7 @@ body{
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
+    padding-top: 180px;
 }
 .insta-info{
     display: flex;
