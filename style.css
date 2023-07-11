@@ -2,11 +2,11 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-section{
+.section-one{
     display: flex;
     background-color: #E554731A;
 }
-img{
+.flower-top{
     height: 700px;
     width: 450px;
 }
@@ -24,16 +24,16 @@ img{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     margin-left: 240px;
-    }
-    .shop-btn{
+}
+.shop-btn{
         border-radius: 8px;
         color: #FFFFFF;
         background: #E55473;
         border: none;
         padding: 20px 43px;
-    margin-left: 240px;
+        margin-left: 240px;
 
-    }
+}
 .featured{
     color: #272727;
     text-align: center;
@@ -98,22 +98,166 @@ img{
 }
 /* new sections start */
 .group-delivar{
+    width: 1100px;
+    height: 200px;
+    border-radius: 200px;
     display: flex;
-    width: 1440px;
-    height: 320px;
+    text-align: center;
+    padding-top: 50px;
     margin-top: 130px;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 100px;
+
+    background: rgba(221, 24, 24, 0.05);
 }
 .img-group{
     width: 88px;
     height: 88px;
 }
 .delivary-support{
-    color: rgba(39, 39, 39, 0.80);
-    padding: 0 10 10 10px;
+    color: rgba(39, 39, 39, 0.80)
     font-family: Lato;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
-    line-height: 35px;
-    }
+    padding: 20px;
+
+}
+.hot-sell{
+        display: flex;
+        border-radius: 8px;
+        background: rgba(229, 84, 115, 0.05);
+}
+.flower-heading-two{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 350px 100px 0 200px;
+}
+.flower-middle{
+    width: 318px;
+    height: 420px;
+    margin-top: 228px;
+}
+.flower-drescription-two{
+    display: flex;
+    width: 594px;
+    padding-left: 160px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.sing-up-btn{
+
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-left: 400px;
+}
+.off{
+    color: #E55473;
+}
+.insta{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta-info{
+    display: flex;
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 350px;
+}
+.four-image-set{
+    display: flex;
+}
+.four-img{
+    width: 330px;
+    height: 370px;
+}
+.deals-section{
+    background-image: url('Flower\ Asset/Rectangle 9.png');
+    width: 1320px;
+    height: 449px;
+}
+.deals{
+    text-align: center;
+    padding-top: 120px;
+    color: #272727;
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 40px;
+}
+.latest-deals{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.subscribe-btn input{
+    width: 700px;                        
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    margin-left: 287px;
+    padding-left: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+.subscribe-btn button{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+.footer-div{
+    text-align: center;
+    background-color: #111010;
+    width: 1322px;
+    height: 449px;
+}
+.flowershop{
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+}
+.flower-span{
+    color: #E55473;
+}
+.footer-info{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+}
+.copyright-symbal{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
